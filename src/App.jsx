@@ -1,4 +1,3 @@
-import './App.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Imagesbackground from './components/Imagesbackground';
@@ -12,9 +11,9 @@ import About from './components/About';
 function App() {
   return (
     <Router>
-      <Header />  
+      <Header />
       <Routes>
-        <Route path="/" element={
+        <Route path="*" element={
           <>
             <Imagesbackground style={{ left: '230px', paddingTop:'0px' }} />
             <Section />
