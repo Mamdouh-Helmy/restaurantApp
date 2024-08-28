@@ -11,7 +11,7 @@ import About from './components/About';
 function App() {
   return (
     <Router>
-      <Imagesbackground style={{ left: '160px', paddingTop:'0px' }} />
+      <Imagesbackground style={{ left: '120px', paddingTop:'0px' }} />
       <Header />
       <Routes>
         <Route path="*" element={
