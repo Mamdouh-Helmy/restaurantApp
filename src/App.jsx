@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Imagesbackground from './components/Imagesbackground';
 import Section from './components/Section';
@@ -31,4 +31,5 @@ function App() {
 }
 
 export default App;
+
 
