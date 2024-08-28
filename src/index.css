@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'CotorisBold';
+    src: url('./Fonts/cotorisbold.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+body{
+    font-family: 'CotorisBold', sans-serif;
+    background-color: #5B0017;
+    position: relative;
+    width: 100%;
+    .container {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        /* Small */
+        @media (min-width: 768px) {
+            width: 750px;
+        }
+        /* Medium */
+        @media (min-width: 992px) {
+            width: 970px;
+        }
+        /* Large */
+        @media (min-width: 1200px) {
+            width: 1370px;
+        }
+    }
+}
