@@ -11,11 +11,11 @@ import About from './components/About';
 function App() {
   return (
     <Router>
+      <Imagesbackground style={{ left: '230px', paddingTop:'0px' }} />
       <Header />
       <Routes>
         <Route path="*" element={
           <>
-            <Imagesbackground style={{ left: '230px', paddingTop:'0px' }} />
             <Section />
             <Imagesbackground style={{ right: '10px', paddingTop:'150px' }} />
             <Venue />
